@@ -37,6 +37,8 @@ ul { list-style: none; padding: 0; }
 
 .suggestions { position: sticky; top: 0; align-self: start; padding: 36px 16px 0; }
 .row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.credit { margin-top: 28px; font-size: 12px; color: var(--muted); line-height: 1.6; }
+.credit strong { color: var(--text); }
 .heading { font-weight: 600; margin: 18px 0 14px; }
 
 @media (max-width: 1100px) { .suggestions { display: none; } .layout { grid-template-columns: 72px minmax(0, 630px); } .sidebar span { display: none; } .logo { display: none; } }

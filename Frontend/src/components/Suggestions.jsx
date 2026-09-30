@@ -20,6 +20,10 @@ export default function Suggestions() {
           </button>
         </div>
       ))}
+      <footer className="credit">
+        <p>Made by <strong>Abubakar Orakzai</strong></p>
+        <p>© 2026 Instagram Clone</p>
+      </footer>
     </aside>
   );
 }
